@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Progemz Recruitment</title>
+  <style>
+    /* Basic Reset & Styling */
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { font-family: Arial, sans-serif; background:#f4f4f4; line-height:1.6; }
+    .container { width:90%; max-width:1200px; margin:auto; padding:20px; }
+    header { background:#0056b3; color:#fff; padding:20px 0; }
+    nav ul { display:flex; list-style:none; justify-content:flex-end; }
+    nav li { margin-left:20px; }
+    nav a { color:#fff; text-decoration:none; font-weight:bold; }
+    .hero { background:#007bff; color:#fff; padding:100px 0; text-align:center; }
+    .hero h1 { margin-bottom:10px; }
+    section { padding:60px 0; }
+    .services, .about, .contact { background:#fff; margin-bottom:30px; border-radius:8px; box-shadow:0 2px 4px rgba(0,0,0,0.1); }
+    .services .grid, .about .content { display:grid; gap:20px; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); }
+    .service-card, .about .content div { padding:20px; }
+    .contact form { display:flex; flex-direction:column; gap:15px; padding:20px; }
+    .contact input, .contact textarea { padding:8px; border:1px solid #ccc; border-radius:4px; }
+    .btn { background:#ff6f61; color:#fff; padding:10px; border:none; border-radius:4px; cursor:pointer; }
+    footer { text-align:center; padding:20px 0; background:#333; color:#fff; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Progemz Recruitment</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="candidate.html">Candidate Registration</a></li>
+          <li><a href="client.html">Client Registration</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section class="hero">
+    <div class="container">
+      <h1>Welcome to Progemz</h1>
+      <p>Your finance recruitment partner</p>
+      <button class="btn">Get Started</button>
+    </div>
+  </section>
+</body>
+</html>
